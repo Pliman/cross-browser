@@ -1,0 +1,2 @@
+给容器设置一个与其高度相同的行高
+line-height:与容器的height一样，在IE6中，只对block元素起作用
