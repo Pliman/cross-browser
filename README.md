@@ -19,6 +19,7 @@ Arranged according to alphabet
 - `horizontally-center 水平居中`
 - `image-gap 图片与容器缝隙`
 - `line-height-invalid IE6-7 line-height失效的问题`
+- `list-style-image-positioning list-style-image准确定位的问题`
 - `list-style-position list-style-position默认值不同`
 - `min-height 最小高度问题`
 - `odd-width IE6 weidth为奇数，右边多出1px的问题`
