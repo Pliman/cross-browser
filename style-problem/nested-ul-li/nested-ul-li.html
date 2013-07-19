@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>nested-ul-li</title>
+
+	<style>
+		.nestedUl {
+			float: left;
+		}
+
+		.OK {
+			zoom: 1;
+		}
+	</style>
+</head>
+<body>
+<div>
+	<ul>
+		<li>foo</li>
+
+		<li><ul class="nestedUl">
+			<li>foo</li>
+		</ul></li>
+	</ul>
+</div>
+<div class="OK">
+	<ul>
+		<li>foo</li>
+
+		<li><ul class="nestedUl OK">
+			<li>foo</li>
+		</ul></li>
+	</ul>
+</div>
+</body>
+</html>

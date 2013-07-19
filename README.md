@@ -24,6 +24,7 @@ Arranged according to alphabet
 - `list-style-image-positioning list-style-image准确定位的问题`
 - `list-style-position list-style-position默认值不同`
 - `min-height 最小高度问题`
+- `nested-ul-li 嵌套使用ul、li的问题`
 - `odd-width IE6 weidth为奇数，右边多出1px的问题`
 - `td-auto-wrap td自动换行的问题`
 - `td-height td的最小高度`
