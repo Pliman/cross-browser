@@ -1,0 +1,7 @@
+table中td的宽度都不包含border的宽度，但是oprea和ff中td的高度包含了border的高度
+
+解决：
+
+	设置line-height和height一样。在ie中如果td中的没有内容，那么border将不会显示
+
+`在我本人的测试中，chrome和firefox和IE6的表现是一致的，不知道是不是新标准出来后，chrome和firefox按照标准作了修改`

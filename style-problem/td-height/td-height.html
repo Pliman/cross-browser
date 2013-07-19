@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>td-height</title>
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+		}
+
+		.notOK {
+			border: 5px solid #999999;
+			width: 100px;
+			height: 100px;
+		}
+
+		.OK {
+			border: 5px solid #999999;
+			width: 100px;
+			height: 100px;
+			line-height: 100px;
+		}
+	</style>
+</head>
+<body>
+<table>
+	<tbody>
+	<tr>
+		<td class="notOK">foo</td>
+	</tr>
+	<tr>
+		<td class="OK">bar</td>
+	</tr>
+	</tbody>
+</table>
+</body>
+</html>
