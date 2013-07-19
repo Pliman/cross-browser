@@ -18,6 +18,7 @@ Arranged according to alphabet
 - `height-over-flow 高度溢出`
 - `horizontally-center 水平居中`
 - `image-gap 图片与容器缝隙`
+- `li-bottom-3px IE6-7 li底部有3px的问题`
 - `li-float-margin-increase li浮动后，margin变大`
 - `li-height-error IE中li指定高度后，出现排版错误`
 - `line-height-invalid IE6-7 line-height失效的问题`
