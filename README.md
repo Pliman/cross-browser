@@ -10,6 +10,7 @@ Arranged according to alphabet
 - `blank-row-nest-p div嵌套p时，出现空白行`
 - `default-div-height IE6 div默认高度`
 - `default-margin-padding 默认内外边距`
+- `double-margin 双倍边距`
 - `height-over-flow 高度溢出`
 - `horizontally-center 水平居中`
 - `image-gap 图片与容器缝隙`
