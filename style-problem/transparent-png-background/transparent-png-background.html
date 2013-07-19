@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>transparent-png-background</title>
+
+	<style>
+		.notOK {
+			border: 1px solid #3498DB;
+			width: 200px;
+			height: 200px;
+		}
+
+		.OK {
+			border: 1px solid #2ECC71;
+			width: 200px;
+			height: 200px;
+			background:url("arrow-blue-left.png") no-repeat;
+			_background:none;
+			_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="arrow-blue-left.png");
+		}
+	</style>
+</head>
+<body>
+<div class="notOK">
+</div>
+<div class="OK">
+</div>
+</body>
+</html>
