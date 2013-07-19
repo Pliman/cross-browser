@@ -9,6 +9,7 @@ Arranged according to alphabet
 --------------------------------
 - `blank-row-nest-p div嵌套p时，出现空白行`
 - `child-absolute IE6 子元素绝对定位的问题`
+- `cursor-hand 显示手型cursor:hand`
 - `default-div-height IE6 div默认高度`
 - `default-margin-padding 默认内外边距`
 - `div-gap IE6两个层之间3px的问题`
