@@ -28,5 +28,6 @@ Arranged according to alphabet
 - `td-height td的最小高度`
 - `transparent-png-background 透明png图片会带背景色`
 - `ul-float-error ul或li浮动后，显示在div外`
+- `ul-float-margin-increase ul浮动后，margin变大`
 - `ul-margin 默认边距问题`
 - `vertically-center 垂直居中(限块元素)`
