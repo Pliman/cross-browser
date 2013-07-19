@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>odd-width</title>
+
+	<style>
+		.container-notOK {
+			position: relative;
+			width: 301px;
+			height: 300px;
+			background-color: #cccccc;
+		}
+
+		.notOK {
+			position: absolute;
+			width: 200px;
+			height: 200px;
+			background-color: #3498DB;
+			top: 10px;
+			right: 10px;
+		}
+
+		.container-OK {
+			position: relative;
+			width: 300px;
+			height: 300px;
+			background-color: #999999;
+		}
+
+		.OK {
+			position: absolute;
+			width: 200px;
+			height: 200px;
+			background-color: #2ECC71;
+			top: 10px;
+			right: 10px;
+		}
+	</style>
+</head>
+<body>
+	<div class="container-notOK">
+		<div class="notOK">foo</div>
+	</div>
+	<div class="container-OK">
+		<div class="OK">bar</div>
+	</div>
+</body>
+</html>

@@ -15,5 +15,6 @@ Arranged according to alphabet
 - `horizontally-center 水平居中`
 - `image-gap 图片与容器缝隙`
 - `min-height 最小高度问题`
+- `odd-width IE6 weidth为奇数，右边多出1px的问题`
 - `td-height td的最小高度`
 - `vertically-center 垂直居中(限块元素)`
