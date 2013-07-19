@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ul-float-error</title>
+
+	<style>
+		ul {
+			float: left;
+		}
+
+		.OK ul {
+		}
+	</style>
+</head>
+<body>
+<div>
+	<ul>
+		<li>foo</li>
+	</ul>
+</div>
+<div class="OK">
+	<ul>
+		<li>bar</li>
+	</ul>
+
+	<div style="clear:both"></div>
+</div>
+</body>
+</html>
