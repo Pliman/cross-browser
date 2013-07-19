@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>li-height-error</title>
+
+	<style>
+		li {
+			height: 30px;
+		}
+
+		.OK ul li{
+			height: 30px;
+			line-height: 30px;
+		}
+	</style>
+</head>
+<body>
+<div>
+	<ul>
+		<li>foo</li>
+	</ul>
+</div>
+<div class="OK">
+	<ul>
+		<li>bar</li>
+	</ul>
+</div>
+</body>
+</html>
