@@ -20,5 +20,6 @@ Arranged according to alphabet
 - `line-height-invalid IE6-7 line-height失效的问题`
 - `min-height 最小高度问题`
 - `odd-width IE6 weidth为奇数，右边多出1px的问题`
+- `td-auto-wrap td自动换行的问题`
 - `td-height td的最小高度`
 - `vertically-center 垂直居中(限块元素)`
