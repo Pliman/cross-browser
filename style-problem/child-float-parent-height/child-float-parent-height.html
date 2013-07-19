@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>child-float-parent-height</title>
+
+	<style>
+		.container-notOK {
+			background-color: #cccccc;
+		}
+
+		.notOK {
+			width: 220px;
+			height: 220px;
+			border: 1px solid #3498DB;
+			float: left;
+		}
+
+		.container-OK {
+			background-color: #999999;
+		}
+
+		.clear{
+			clear: both
+		}
+
+		.OK {
+			width: 220px;
+			height: 220px;
+			border: 1px solid #2ECC71;
+			float: left;
+		}
+	</style>
+</head>
+<body>
+<div class="container-notOK">
+	<div class="notOK">foo</div>
+</div>
+<div class="container-OK">
+	<div class="OK">bar</div>
+	<div class="clear"></div>
+</div>
+</body>
+</html>
