@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>td-auto-wrap</title>
+
+	<style>
+		.notOK td {
+			border: 1px solid #999999;
+			width: 100px;
+			height: 100px;
+		}
+
+		.OK {
+			table-layout: fixed;
+		}
+
+		.OK td {
+			border: 1px solid #999999;
+			width: 100px;
+			height: 100px;
+			word-wrap: break-word;
+		}
+	</style>
+</head>
+<body>
+<table class="notOK">
+	<tbody>
+	<tr>
+		<td>Lorem Ipsum is simply dummy text of the printing and
+			typesetting industry.</td>
+	</tr>
+	</tbody>
+</table>
+
+<table class="notOK">
+	<tbody>
+	<tr>
+		<td>Lorem Ipsum is simply dummy text of the printing and
+			typesetting industry.</td>
+	</tr>
+	</tbody>
+</table>
+</body>
+</html>
